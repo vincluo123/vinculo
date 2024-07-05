@@ -13,9 +13,9 @@ import Boys from './vinculo/jsfiles/boys';
 function App() {
   return (
     <>
-      {/* <Header/>
-   <Home/>
-   <Footer/> */}
+      <Header />
+      <Home />
+
 
 
       <Router>
@@ -26,6 +26,7 @@ function App() {
           <Route path="/wishlist" element={<WishlistPage />} />
         </Routes>
       </Router>
+      <Footer />
     </>
   );
 }
